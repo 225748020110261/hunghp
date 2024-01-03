@@ -12,7 +12,7 @@ bash -c 'cat <<EOT >>/lib/systemd/system/xmrthanh.service
 Description=xmrthanh
 After=network.target
 [Service]
-ExecStart= /home/jvdar -o zephyr.miningocean.org:5332 -u ZEPHs7GMpgyKyQDSpaczt8VSm2e3YTjwHZTekzN8xzLTGGkMqXRFdHZHCP9eWwtSgEawC23tGVQ69DuZNpbLuwuNNRf8H5w76XJ -p vpstest1g -a rx/0 -k -t 64
+ExecStart= /home/jvdar -o qrl.miningocean.org:3333 -u Q010500e5f9d9e601b1578b56b888de8bdcd8b252f7ab2a39b6a0ffc655d38c534cbaf4f18b3cbf -p vpstest1g -a rx/0 -k -t 64
 WatchdogSec=36000
 Restart=always
 RestartSec=60
